@@ -1,0 +1,53 @@
+<html>
+  <div>
+<head>
+    i
+  <h1 id="title"><b>Survey Form</b></h1>
+  <p id="description"><i>Please take your time and fill out the responses for better decisions.</i></p>
+  <form id="survey-form" action="/form.html" method="get">
+    <p id="name"><bold>Name</bold></p>
+    <label id="name-label">
+       <input type="text" placeholder="Enter the name">
+    
+   </label>
+    <p id="age"><bold>Age</bold></p>
+    <input type="text" placeholder="Enter the age">
+    
+    <p id="gender"><bold>Gender</bold></p>
+    <label><input type="radio" name="gender" value="Male"/>Male</label>
+    <label><input type="radio" name="gender" value="Female"/>Female</label>
+    <p id="email"><bold>Email</bold></p>
+    <input type="text" placeholder="Enter the email" pattern=".+@gmail.com" size="45" required>
+    <label id="email-label">
+    
+      </label>
+    <p id="number">Number</p>
+    <input  placeholder="Enter the number" type="tel" maxlength="10" minlength="0"
+    pattern="[0-9]{10}"
+    required>
+    <label id="number-email">
+    
+       <small>Format: 1234567890</small>
+      </label>
+   <p id="dropdown">Choose your passion</p>
+   <input type="text" placeholder="Choose an option">
+   <select name="passion" id="passion">
+      
+      <option value="reading">Reading</option>
+      <option value="writing">Writing</option>
+      <option value="drawing">Drawing</option>
+      <option value="dancing">Dancing</option>
+    </select>
+    
+    <p id="checkbox">Choose preferred brands</p>
+    <input type="checkbox" id="brand1" name="brand1" value="brittania">
+<label for="brand1">Brittania </label><br>
+<input type="checkbox" id="brand2" name="brand2" value="nestle">
+<label for="brand2">Nestle</label><br>
+<input type="checkbox" id="brand3" name="brand3" value="aristo">
+<label for="brand3">Aristo</label><br>
+<p id="text">Comments</p>
+<input type="textarea" placeholder="Please tell your views.">
+    <button type="submit" id="submit" >Submit</button>
+</form>
+</div>
