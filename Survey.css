@@ -1,0 +1,27 @@
+<style>
+  h1{
+       color:red;
+       font-family:sans-serif;
+       font-size :50px;
+       text-align: center;
+	     
+   }
+   #description{
+     font: italic;
+     font-size:30px;
+     text-align:center;
+   }
+   div{
+     background-color:rgb(255, 193, 58);
+   }
+   #survey-form{
+     text-align:center;
+   }
+   #submit{
+     border:solid;
+     height:20px;
+     width:70px;
+   }
+   
+
+</style>
